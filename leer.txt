@@ -1,0 +1,35 @@
+------------------
+COMANDOS PROYECTO
+------------------
+
+// Instalamos las dependecias necesarias descritas en (package.json) que es la carpeta (node_modules).
+# npm i
+
+-------------
+COMANDOS GIT
+-------------
+
+CONFIGURACIÓN INICIAL
+----------------------
+
+// Comando para instalar Git
+# apt-get install git
+
+// Comando para configurar nuestro nombre
+# git config --global user.name "Nombre"
+
+// Comando para configurar nuestro email
+# git config --global user.email "Email"
+
+// Comando para configurar los colores de Git
+# git config --global color.ui true
+
+
+CONFIGURACIÓN PROYECTO
+-----------------------
+
+// Marca el inicio de nuestro proyecto y comienza a monitorear todos nuestros cambios
+# git init
+
+// Estado de nuestro proyecto
+# git status
