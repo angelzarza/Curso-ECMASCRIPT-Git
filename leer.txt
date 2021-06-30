@@ -33,3 +33,11 @@ CONFIGURACIÓN PROYECTO
 
 // Estado de nuestro proyecto
 # git status
+
+// Decidimos que archivos estan listos para el siguiente paso, podemos usar -A para añadir todos.
+# git add
+
+// Guardar los cambios con un mensaje para identificarlos
+# git commit -m "Mensaje"
+
+//
