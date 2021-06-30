@@ -63,3 +63,18 @@ CONFIGURACIÓN PROYECTO
 
 // Fusionar ramas
 # git merga Rama
+
+
+----------------
+COMANDOS GITHUB
+----------------
+
+// Descarga un proyecto de GitHub y lo pasa al ordenador.
+# git clone urlDelRepositorio
+
+// Vincula nuestro proyecto local, con nuestro proyecto remoto.
+# git remote add origin urlDelRepositorio
+
+// Elimina la conexion entre repositorio local y repositorio remoto
+# git remote remove origin
+# git remote -v // Estado de la conexion
