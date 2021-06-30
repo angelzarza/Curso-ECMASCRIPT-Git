@@ -40,4 +40,26 @@ CONFIGURACIÓN PROYECTO
 // Guardar los cambios con un mensaje para identificarlos
 # git commit -m "Mensaje"
 
-//
+// Nos da una lista de todos los commits
+# git log
+
+// Viajamos entre commits o ramas
+# git checkout CodigoDelCommit o NombreRama
+# git checkout -d NombreRama // Crea la rama y te mueves a ella
+
+// Elimina los commits
+# git reset CodigoDelCommit
+# git reset --soft CodigoDelCommit // No toca nuestro codigo
+# git reset -- mixed CodigoDelCommit // Borra el Staging Area sin tocar el Working Area
+# git reset --hard CodigoDelCommit // Borra absolutamente todo
+
+// Muestra comandos de Git
+# git help
+
+// Muestra las ramas
+# git branch
+# git branch nombre // Crea una rama
+# git branch -d nombre // Borra una rama
+
+// Fusionar ramas
+# git merga Rama
