@@ -78,3 +78,47 @@ COMANDOS GITHUB
 // Elimina la conexion entre repositorio local y repositorio remoto
 # git remote remove origin
 # git remote -v // Estado de la conexion
+
+// Pasa nuestros cambios, commits y proyecto a GitHub
+# git push
+# git push origin rama // Con (origin rama) subimos la rama al GitHub
+
+
+------------------
+UTILIDADES GITHUB
+------------------
+
+ISSUES
+-------
+
+// Son una forma de continuar, mejorar o solucionar un error en nuestros 
+// repositorios (proyectos).
+// Son mensajes para ver que hace falta en nuestro proyecto para poder solucionarlo.
+
+MILESTONES
+-----------
+
+// Son grupos de issues que se aplican para un proyecto, caracteristica o periodo de tiempo.
+// Se puede asignar fecha para los issues y desde issues agregarlos a milestones creados.
+
+LABELS
+-------
+
+// Son una manera de organizar diferentes tipos de problemas.
+// En issues podemos añadir estas etiquetas que creemos.
+
+TAGS
+-----
+
+// Los tags son simples puntos especificos el la historia de nuestro proyecto y se
+// usan para marcar alguna version del mismo.
+//
+// Las tags anotadas son almacedanas como objetos completos dentro de la base de Git
+// y contienen mas informacion.
+# git tag -a v1.0 -m "Mensaje"
+# git tag v1.0 // Tags simples
+# git tag -a v1.0 -m "Mensaje" CodigoDelCommit // Asignar tags a un commit
+
+// Para subir nuestros tags a GitHub
+# git push origin v1.0
+# git push origin --tags // Sube todos los tags
